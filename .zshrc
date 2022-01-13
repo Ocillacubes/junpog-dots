@@ -12,8 +12,8 @@ autoload -Uz compinit promptinit
 compinit
 promptinit
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 PROMPT='%(?.%F{green}%n.%F{red}Oof)%f %B%F{240}%1~%f%b %# '
 
@@ -66,8 +66,3 @@ alias -s png="feh"
 alias -s jpg="feh"
 alias -s gif="feh"
 alias -s html="$BROWSER"
-
-# Autostart X
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
-fi

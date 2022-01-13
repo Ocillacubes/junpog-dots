@@ -52,13 +52,13 @@ bindsym $alt+F4 kill
 bindsym $super+h focus left
 bindsym $super+j focus down
 bindsym $super+k focus up
-bindsym $super+Right focus right
+bindsym $super+l focus right
 
 # move focused window
 bindsym $super+Shift+h move left
 bindsym $super+Shift+j move down
 bindsym $super+Shift+k move up
-bindsym $super+Shift+Right move right
+bindsym $super+Shift+l move right
 
 # split in horizontal orientation
 bindsym $super+Shift+v split h

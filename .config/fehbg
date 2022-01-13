@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill $HOME'/.config/wal/coffeecar.png' 
+feh --no-fehbg --bg-fill $HOME'/.config/wal' 
